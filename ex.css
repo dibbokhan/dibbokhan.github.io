@@ -1,9 +1,7 @@
 body{
-		color: #525174;
-		background-color: #C0C5C1;
-	
-		margin: 5px;
-}
-.co{
 		color: black;
-		}
+		background-color: #C0C5C1;
+		font-size: 15px;
+		margin: 5px;
+		
+}
