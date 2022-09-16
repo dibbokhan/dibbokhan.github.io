@@ -1,0 +1,17 @@
+body{
+		color: black;
+		background-color: #ebf5df;
+}
+.dibbo_text{
+		color: #a76571;
+}
+
+.co{
+	color: 998888;
+	
+}
+.1{
+		display: flex;
+		align-items: center;
+		margin: 5px;
+}
