@@ -1,0 +1,46 @@
+<DOCTYOE html>
+<html>
+<body>
+	<table border="1">
+		<tr>
+			<td>Department</td>
+			<td>Section</td>
+			<td>Male</td>
+			<td>Female</td>
+		</tr>
+		<tr>
+			<td rowspan="3"></br></td>
+			<td>A</td>
+			<td>40</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>B</td>
+			<td>35</td>
+			<td>45</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>50</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Business</td>
+			<td>A</td>
+			<td>60</td>
+			<td></br></td>
+		</tr>
+		<tr>
+			<td>B</td>
+			<td></br></td>
+			<td bgcolor="green">70</td>
+		</tr>
+		<tr>
+			<td>Total</td>
+			<td colspan="3" align="center">370</td> 
+		</tr>
+	
+	</table>
+
+</body>
+</html>
