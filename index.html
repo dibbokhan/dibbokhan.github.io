@@ -4,54 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="in.css">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14a544c8c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main style="margin: 0 20px;">
-        <center>
-           <img src="dk.jpg" width="312" alt="Dibbo Khan">
-           <p class="dibbo_text">Dibbo Khan</p>
-        </center>
-        <p class="about">
-            <u>
-                <strong>About Me:</strong>
-            </u>
-        </p>
-        <p class="hi">
-            Hi! Myself <span style="font-weight: bold; font-style: italic;">Dibbo Khan</span>. I am 17 years old. And I am a 
-            student. My father's name is Bidyut Khan. He is a high 
-            school staf. And my mother's name is Suborna Khan.
-            She is a housewife. I also have an elder sister and her
-            name is Keya Khan and she is a student too. I am now
-            in class 11. I am from Madartali. Which is a small
-            village of <a href="Bagerhat.html">Bagerhat</a>. (click bagerhat to know more about
-            it)
-        </p>
-        </br>
-        <div class="co" style="margin-top: 20px;">
-            <strong>Contact me via :</strong>
-            <div>
-                <a href="https://www.facebook.com/dibbok0" style="text-decoration: none;">
-                    <div style="display: flex; align-items: center;">
-                        <img src="fac.png" width="25" height="25">
-                        <div style="margin: 5px;">Facebook</div></div>
-                </a>
-                <a href="https://instagram.com/dibbo.khan" style="text-decoration: none;">
-                    <div style=" display: flex; align-items: center; ">
-                        <img src="ins.png" width="25" height="25">
-                        <div style="margin: 5px;">Instagram</div>
-                    </div>
-                </a>		
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Desine Learner</p>
+                <h1>Hi, I'm <span>DIBBO</span> KHAN<br><span style="font-size: 70px; color: #fff;">I'm from Bangladesh</span></h1>
+            </div>
+        </div>    
+    </div>
+    <!-- ------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Untitled Project.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! Myself Dibbo Khan. 
+                        I am 17 years old. And I am a student. 
+                        My father's name is Bidyut Khan. 
+                        He is a high school staf. 
+                        And my mother's name is Suborna Khan. 
+                        She is a housewife. 
+                        I also have an elder sister and her name is Keya Khan and she is a student too. 
+                        I am now in class 11. I am from Madartali. Which is a small village of Bagerhat. </p>
+                       
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('result')">Results</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX Desine</span><br>Desinging Web/app interface</li>
+                                <li><span>Web Devepolment</span><br>Web app development</li>
+                                <li><span>Learnig app development</span><br>Learning ios and android app development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>3/04/2023 - current</span><br>UI/UX desine tranining from youtube</li>
+                                <li><span>2022 - 2023 </span><br>Participated at BDapps national Hackathon as TEAM 'PIED PIPER'</li>
+                                <li><span>2021-2022</span><br>learnt coding through mobile</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SSC</span><br>From Nashukhali Social Welfare High School</li>
+                                <li><span>JSC</span><br>From Nashukhali Social Welfare High School</li>
+                                <li><span>PSC</span><br>From Madartali Govt. Primary school</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="result">
+                            <ul>
+                                <li><span>SSC</span><br>GPA 5.00</li>
+                                <li><span>JSC</span><br>GPA 5.00</li>
+                                <li><span>PSC</span><br>GPA 5.00</li>
+                            </ul>
+                        </div>
+                </div>
             </div>
         </div>
-        	<center>
-        			<h4 style="border: 5px solid lightblue; border-radius: 5px;">
-        				
-        				<a href="exp.html" style="text-decoration: none; border: 2px solid lightblue;">Experience</a> | <a href="edu.html" style="text-decoration: none; border: 2px solid lightblue;">Education</a> | <a href="re.html" style="text-decoration: none;border: 2px solid lightblue;">Results</a>
-        				       					
-        			</h4>
-     		</center>
-     </main>
+    </div>
+
+<!-- ---------servises-------- -->
+    <div id="servises">
+        <div id="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="servises-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Design of a user interface and experience,
+                    designed for mobile devices,
+                    desktop screens, and more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p> involves all aspects of the design and functioning of websites, from the graphic design and interface to the UX and technical aspects on the back-e nd.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Design of a user interface and experience in android and ios apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+for (tablink of tablinks){
+tablink.classList.remove("active-links");
+}
+for (tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-links");
+document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 </body>
 </html>
