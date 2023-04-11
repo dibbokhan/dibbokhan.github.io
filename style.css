@@ -262,6 +262,35 @@ nav ul li a:hover::after{
     color: #ff004f;
      transform: translateY(-5px); 
 }
+/* contact */
+#contact {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+#contact h2 {
+  text-align: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50%;
+}
+#contact form > button {
+  align-self: center;
+  margin-top: 15px;
+}
+#contact form > button:hover {
+  color: white;
+  background-color: black;
+}
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
 
 /* -------smaller screen----- */
 
