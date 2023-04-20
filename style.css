@@ -201,6 +201,10 @@ nav ul li a:hover::after{
     margin-left: 50px;
     
 }
+.class-list{
+    margin-left: 12%;
+    margin-right: 12%;
+}
 .pera a{
     margin-left: 80px;
     font-size: 13px;
@@ -262,6 +266,37 @@ nav ul li a:hover::after{
     color: #ff004f;
      transform: translateY(-5px); 
 }
+<<<<<<< HEAD
+/* ------Contact Me------ */
+#contact {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  }
+  #contact h2 {
+    text-align: center;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;
+  }
+  #contact form > button {
+    align-self: center;
+    margin-top: 15px;
+  }
+  #contact form > button:hover {
+    color: white;
+    background-color: black;
+  }
+  /*Footer*/
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+  }
+=======
 /* contact */
 #contact {
   border-bottom: 1px solid rgba(0, 0, 0, 0.171);
@@ -269,6 +304,7 @@ nav ul li a:hover::after{
 #contact h2 {
   text-align: center;
 }
+>>>>>>> 3c9d6129d9fbc60d35376980ff2279661735001a
 
 #contact form {
   display: flex;
