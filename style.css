@@ -204,6 +204,14 @@ nav ul li a:hover::after{
 /* .class-list{
     margin-left: 12%;
     margin-right: 12%; */
+
+
+.pera a:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+.pera a i{
+    color: #fff;
 }
 .pera a{
     margin-left: 80px;
@@ -213,13 +221,6 @@ nav ul li a:hover::after{
     background-color: #262626;
     padding: 8px;
     
-}
-.pera a:hover{
-    background: #ff004f;
-    transform: translateY(-10px);
-}
-.pera a i{
-    color: #fff;
 }
 .pera2 p{
     margin-top: 50px;
